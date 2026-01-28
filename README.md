@@ -24,4 +24,4 @@ The goal of this repository is to build a strong foundation in programming conce
 
 ---
 
-Learning step by step and improving with consistent practice.
+✨ Learning step by step and improving with consistent practice.
