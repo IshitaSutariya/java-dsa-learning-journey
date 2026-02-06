@@ -11,8 +11,10 @@ public class TypePromotion {
         //---------- lossy conversion from int to char-------------
         // char c = b-a;  // will show error :cannot convert a int value to char
         // char d = (char)b-a;     // still wrong
-        char e = (char)(a+1);
-        System.out.println(e);
+        char d = (char)(b - a);  // correct
+        System.out.println(d);  // non-printable control character
+        char e = (char)(a+1); // 97 + 1 → 98 → 'b'
+        System.out.println(e); // 
 
         // ---------------lossy conversion from int to byte------------
         short w1 = 5;

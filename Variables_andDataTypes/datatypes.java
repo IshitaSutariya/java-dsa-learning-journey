@@ -12,5 +12,8 @@ public class datatypes {
         //long
         //double
         short n = 240;
+        System.out.println(var);
+        System.out.println(price);
+        System.out.println(n);
     }
 }

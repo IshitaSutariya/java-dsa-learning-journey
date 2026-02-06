@@ -1,4 +1,4 @@
-public class sum {
+public class Sum {
     public static void main(String[] args) {
         // code to calculate sum
         /*
